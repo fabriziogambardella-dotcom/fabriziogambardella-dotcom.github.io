@@ -1,0 +1,9 @@
+# The private key, tokens, and vehicle data must never be committed.
+*.key
+*.p12
+*.pfx
+*.env
+.env
+*private*
+*.pem
+!.well-known/appspecific/com.tesla.3p.public-key.pem
